@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 250px;
 }
 .first-block {
   width: 50%;
@@ -29,4 +30,9 @@ section {
 .banner-head {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.career-dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
