@@ -8,7 +8,7 @@ h1 {
 .text-color {
   color: dodgerblue;
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 250px;
 }
@@ -34,5 +34,31 @@ section {
 .career-dream {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right bottom 25%;
+}
+.exp-block {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom 70%;
+}
+.exp-item {
+  box-shadow: 15px 15px 50px darkgray;
+  width: 29%;
+  margin-left: 14.5%;
+  margin-right: 14.5%;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+#graphic-exp {
+  border-left: 6px solid;
+  border-image: linear-gradient(deepskyblue, dodgerblue);
+  border-image-slice: 33;
+}
+#junior-exp {
+  border-left: 6px solid;
+  border-image: linear-gradient(magenta, dodgerblue);
+  border-image-slice: 33;
+}
+footer p {
+  text-align: center;
 }
